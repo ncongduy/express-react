@@ -40,7 +40,7 @@ async function getData() {
 
 // routing
 app.get('/', function (req, res) {
-	res.send({ hello: 'hello world from express!' });
+	res.send(['hello world from express!']);
 });
 
 app.get('/posts', function (req, res) {
